@@ -182,8 +182,8 @@
   .certs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
   .cert{border:1px solid var(--line);border-radius:12px;padding:22px;background:linear-gradient(160deg,var(--ink-3),var(--ink-2));position:relative;transition:.25s}
   .cert:hover{border-color:var(--signal);transform:translateY(-3px);box-shadow:0 0 0 3px var(--signal-dim)}
-  .cert .badge{width:38px;height:38px;border-radius:9px;background:var(--signal-dim);border:1px solid rgba(94,234,212,.3);display:grid;place-items:center;margin-bottom:14px}
-  .cert .badge svg{width:19px;height:19px;stroke:var(--signal)}
+  .cert .badge{width:64px;height:64px;border-radius:12px;overflow:hidden;margin-bottom:14px;flex-shrink:0}
+  .cert .badge img{width:100%;height:100%;object-fit:contain;display:block}
   .cert h4{font-family:var(--display);font-size:16px;font-weight:600;margin-bottom:4px;line-height:1.3}
   .cert .lvl{font-family:var(--mono);font-size:11.5px;color:var(--muted-2);text-transform:uppercase;letter-spacing:.08em}
   .progs{margin-top:22px;border:1px solid var(--line);border-radius:12px;padding:20px 22px;background:var(--ink-2)}
@@ -608,17 +608,17 @@
     <div class="sec-head reveal"><span class="eyebrow">credentials</span><h2>AWS certified &amp; validated.</h2></div>
     <div class="certs">
       <a class="cert reveal" href="https://www.credly.com/earner/earned/badge/0390c2e0-e571-416e-8d2d-bb82e4734e00" target="_blank" rel="noopener" style="display:block;color:inherit;text-decoration:none">
-        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div class="badge"><img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" alt="AWS Certified Solutions Architect Associate badge" loading="lazy"></div>
         <h4>Solutions Architect</h4><div class="lvl">Associate</div>
         <div style="font-family:var(--mono);font-size:11px;color:var(--signal);margin-top:10px">✓ Verify on Credly ↗</div>
       </a>
       <a class="cert reveal" href="https://www.credly.com/earner/earned/badge/eb980c7b-4241-46ac-8066-9964b95299bc" target="_blank" rel="noopener" style="display:block;color:inherit;text-decoration:none">
-        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z"/><path d="M12 8v4m0 3h.01"/></svg></div>
+        <div class="badge"><img src="https://images.credly.com/size/340x340/images/53acdae5-d69f-4dda-b650-d02ed7a50dd7/image.png" alt="AWS Certified Security Specialty badge" loading="lazy"></div>
         <h4>Security</h4><div class="lvl">Specialty</div>
         <div style="font-family:var(--mono);font-size:11px;color:var(--signal);margin-top:10px">✓ Verify on Credly ↗</div>
       </a>
       <a class="cert reveal" href="https://www.credly.com/earner/earned/badge/2c49d3b3-5642-491b-886c-ad6bee20b3c5" target="_blank" rel="noopener" style="display:block;color:inherit;text-decoration:none">
-        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M18 10a6 6 0 1 0-12 0c0 2 1 3 1 3H5a3 3 0 0 0 0 6h14a3 3 0 0 0 0-6h-2s1-1 1-3"/></svg></div>
+        <div class="badge"><img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner badge" loading="lazy"></div>
         <h4>Cloud Practitioner</h4><div class="lvl">Foundational</div>
         <div style="font-family:var(--mono);font-size:11px;color:var(--signal);margin-top:10px">✓ Verify on Credly ↗</div>
       </a>
